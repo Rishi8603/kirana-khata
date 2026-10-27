@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+.kotlin/
+build/
+app/build/
+local.properties
+*.apk
+*.keystore
+keystore.properties
+
+# Private research notes (kept off GitHub)
+research/

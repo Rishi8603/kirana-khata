@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hinglish: Hindi words in English letters. This is the default language for the shopkeeper. -->
+<resources>
+    <string name="app_name">Kirana Khata</string>
+
+    <!-- Home -->
+    <string name="total_due">Kul baaki (lena hai)</string>
+    <plurals name="from_n_customers">
+        <item quantity="one">%1$d grahak se</item>
+        <item quantity="other">%1$d grahakon se</item>
+    </plurals>
+    <string name="search_customers">Grahak khojein…</string>
+    <string name="new_customer">Naya grahak</string>
+    <string name="settled">Hisaab saaf</string>
+    <string name="from_bahi">Bahi se</string>
+    <string name="no_customers_yet">Pehla grahak jodein</string>
+
+    <!-- Customer page -->
+    <string name="due">baaki hai</string>
+    <string name="advance">advance hai</string>
+    <string name="gave">Credit ₹</string>
+    <string name="gave_hint">Udhaar diya</string>
+    <string name="got">Payment ₹</string>
+    <string name="got_hint">Paise mile</string>
+    <string name="remind">Yaad dilayein</string>
+    <string name="call">Call</string>
+    <string name="pdf">PDF</string>
+    <string name="no_entries_yet">Abhi koi entry nahi</string>
+
+    <!-- Amount entry -->
+    <string name="gave_to">%1$s ko credit</string>
+    <string name="got_from">%1$s se payment</string>
+    <string name="add_note">Note jodein (zaroori nahi)</string>
+    <string name="today">Aaj</string>
+    <string name="save">Save karein</string>
+    <string name="undo">Wapas</string>
+    <string name="entry_saved">Entry save ho gayi</string>
+    <string name="entry_deleted">Entry hata di</string>
+
+    <!-- Add customer -->
+    <string name="name">Naam</string>
+    <string name="phone_optional">Phone (zaroori nahi)</string>
+    <string name="phone_hint">WhatsApp yaad dilane ke liye</string>
+    <string name="old_bahi_balance">Bahi mein purana baaki</string>
+    <string name="take_bahi_photo">Bahi page ki photo lein</string>
+    <string name="photo_for_proof">Saboot ke liye (zaroori nahi)</string>
+    <string name="save_customer">Grahak save karein</string>
+    <string name="name_required">Naam likhein</string>
+
+    <string name="reminder_message">Namaste %1$s ji, aapka ₹%2$s baaki hai. Dhanyavaad.</string>
+    <string name="long_press_to_delete">Badalne ke liye entry dabayein, hatane ke liye dabaye rakhein</string>
+    <string name="amount_required">Rakam likhein</string>
+    <string name="whatsapp_missing">WhatsApp phone mein nahi hai</string>
+    <string name="opening_balance">Purana baaki (bahi)</string>
+    <string name="photo_coming_soon">Bahi photo agle update mein aayegi</string>
+
+    <!-- Dues and collections -->
+    <string name="due_date">Due date</string>
+    <string name="due_on">%1$s tak dena hai</string>
+    <string name="set_due_date">Due date lagayein</string>
+    <string name="remove_due_date">Due date hatayein</string>
+    <string name="collections">Vasooli</string>
+    <string name="overdue">Der ho gayi</string>
+    <string name="due_today">Aaj lena hai</string>
+    <string name="upcoming">Aane wale</string>
+    <string name="no_due_date">Due date nahi</string>
+    <string name="running_balance">Bal ₹%1$s</string>
+    <string name="filter_all">Sab</string>
+    <string name="filter_due">Baaki wale</string>
+    <string name="filter_settled">Hisaab saaf</string>
+    <string name="sort">Sort</string>
+    <string name="sort_recent">Naye pehle</string>
+    <string name="sort_highest_due">Sabse zyada baaki</string>
+    <string name="sort_name">Naam A–Z</string>
+    <string name="sort_oldest">Purane pehle</string>
+    <string name="edit">Badlein</string>
+    <string name="edit_entry">Entry badlein</string>
+    <string name="edit_customer">Grahak badlein</string>
+    <string name="ok">OK</string>
+
+    <!-- Suppliers -->
+    <string name="customers_tab">Grahak</string>
+    <string name="search_suppliers">Supplier khojein…</string>
+    <string name="shop_details_short">Dukaan ki jaankari</string>
+    <string name="suppliers_tab">Supplier</string>
+    <string name="new_supplier">Naya supplier</string>
+    <string name="edit_supplier">Supplier badlein</string>
+    <string name="no_suppliers_yet">Jinse maal lete hain, unhe jodein</string>
+    <string name="purchase">Maal liya ₹</string>
+    <string name="purchase_hint">Udhaar maal</string>
+    <string name="pay_supplier">Payment ₹</string>
+    <string name="pay_supplier_hint">Paise diye</string>
+    <string name="purchase_from">%1$s se maal</string>
+    <string name="paid_to">%1$s ko payment</string>
+    <string name="to_pay">dena hai</string>
+    <plurals name="to_n_suppliers">
+        <item quantity="one">%1$d supplier ko</item>
+        <item quantity="other">%1$d suppliers ko</item>
+    </plurals>
+
+    <!-- Expenses -->
+    <string name="expenses">Kharche</string>
+    <string name="add_expense">Kharcha jodein</string>
+    <string name="edit_expense">Kharcha badlein</string>
+    <string name="expense_category">Kis cheez ka</string>
+    <string name="other_category">Aur…</string>
+    <string name="category_required">Category chunein</string>
+    <string name="no_expenses">Is mahine koi kharcha nahi</string>
+    <string name="delete">Hatayein</string>
+    <string-array name="expense_categories">
+        <item>Kiraya</item>
+        <item>Bijli</item>
+        <item>Salary</item>
+        <item>Bhada (transport)</item>
+        <item>Chai-naashta</item>
+        <item>Packing</item>
+        <item>Marammat</item>
+    </string-array>
+
+    <!-- Stock -->
+    <string name="stock">Stock</string>
+    <string name="add_item_stock">Item jodein</string>
+    <string name="search_items">Item khojein…</string>
+    <string name="no_items_yet">Bill ke items yahan dikhenge. Stock ginne ke liye item jodein.</string>
+    <plurals name="low_stock_count">
+        <item quantity="one">%1$d item ka stock kam hai</item>
+        <item quantity="other">%1$d items ka stock kam hai</item>
+    </plurals>
+    <string name="low">Kam</string>
+    <string name="not_tracked">Gina nahi jaata</string>
+    <string name="track_stock">Is item ka stock ginein</string>
+    <string name="sale_price">Bechne ka daam ₹</string>
+    <string name="purchase_price">Khareed ka daam ₹</string>
+    <string name="current_stock">Abhi ka stock</string>
+    <string name="min_stock">Itna ya kam ho to batayein</string>
+    <string name="stock_in">Stock aaya</string>
+    <string name="stock_out">Stock ghatayein</string>
+    <string name="how_many">Kitna?</string>
+    <string name="stock_history">Itihaas</string>
+    <string name="reason_sale">Bika (bill)</string>
+    <string name="reason_purchase">Stock aaya</string>
+    <string name="reason_adjust">Ghataya / sudhaar</string>
+    <string name="reason_bill_deleted">Bill hataya</string>
+    <string name="stock_value">Stock ki keemat</string>
+
+    <!-- Galla and reports -->
+    <string name="galla">Galla (rokad)</string>
+    <string name="reports">Report</string>
+    <string name="cash_in">Paisa aaya</string>
+    <string name="cash_out">Paisa gaya</string>
+    <string name="net_cash">Aaj ka bachat</string>
+    <string name="net">Bachat</string>
+    <string name="from_bills">Bill se</string>
+    <string name="khata_payments">Khata payment mile</string>
+    <string name="supplier_payments">Supplier ko diye</string>
+    <string name="other_cash_in">Aur paisa aaya</string>
+    <string name="other_cash_out">Aur paisa gaya</string>
+    <string name="add_cash_in">+ Paisa aaya</string>
+    <string name="add_cash_out">− Paisa gaya</string>
+    <string name="manual_entries">Aur entries</string>
+    <string name="cash_note_hint">jaise ghar le gaye, chhutta daala</string>
+    <string name="sales">Bikri (bill)</string>
+    <string name="bills_count">Bill</string>
+    <string name="credit_given">Udhaar diya</string>
+    <string name="purchases">Khareed (supplier)</string>
+    <string name="top_dues">Sabse zyada baaki</string>
+    <string name="period_today">Aaj</string>
+    <string name="period_week">Is hafte</string>
+    <string name="period_month">Is mahine</string>
+    <string name="period_last_month">Pichhle mahine</string>
+    <string name="business">Dhandha</string>
+    <string name="cash_flow">Paise ka hisaab</string>
+
+    <!-- Part 6: backup, lock, photo, statement -->
+    <string name="backup">Backup aur restore</string>
+    <string name="auto_backup_title">Google Drive par apne aap backup</string>
+    <string name="auto_backup_body">Android is app ka data din mein lagbhag ek baar aapke Google account mein copy karta hai (Wi‑Fi aur charging par), aur naye phone par usi account se apne aap wapas laata hai. Check karein ki chalu hai: phone Settings → Google → Backup.</string>
+    <string name="backup_file_title">Backup file</string>
+    <string name="backup_file_body">Saare data ki ek file banti hai. Ise WhatsApp par khud ko bhejein ya Drive mein rakhein — ek aur copy ke liye.</string>
+    <string name="make_backup_file">Backup file banayein aur bhejein</string>
+    <string name="restore_from_file">Backup file se wapas laayein</string>
+    <string name="restore_warning">Is phone ka SAARA data backup file se badal jayega. Aage badhein?</string>
+    <string name="restore_done">Wapas aa gaya. App dobara khulega.</string>
+    <string name="restore_failed">Yeh Kirana Khata ki backup file nahi hai.</string>
+    <string name="app_lock">App lock</string>
+    <string name="app_lock_body">App kholte waqt fingerprint ya phone PIN maangein</string>
+    <string name="app_lock_unavailable">Pehle phone par screen lock ya fingerprint lagayein</string>
+    <string name="unlock">Kholein</string>
+    <string name="locked">Kirana Khata band hai</string>
+    <string name="bahi_photo">Bahi photo</string>
+    <string name="photo_saved">Photo jud gayi</string>
+    <string name="statement">Statement</string>
+    <string name="col_date">Tareekh</string>
+    <string name="col_details">Vivaran</string>
+    <string name="col_balance">Baaki</string>
+
+    <!-- GST & HSN (v1.1) -->
+    <string name="gst_hsn">GST / HSN</string>
+    <string name="choose_hsn">HSN code chunein</string>
+    <string name="change">Badlein</string>
+    <string name="search_hsn">HSN code ya saman ka prakaar khojein…</string>
+    <string name="all">Sab</string>
+    <string name="exempt">Chhoot (0%)</string>
+    <string name="hsn">HSN</string>
+    <string name="product_nature">Saman ka prakaar (GST ke hisaab se)</string>
+    <string name="gst_rate">GST dar</string>
+    <string name="gst_added_on_top">Amount = Rate × Qty. GST upar se judega.</string>
+    <string name="remove_gst">GST hatayein</string>
+    <string name="no_gst_set">GST nahi lagaya</string>
+    <string name="gst_source_note">Dar 22.09.2025 ke hisaab se (CBIC). CA se pakka karein.</string>
+    <string name="no_hsn_results">Koi HSN code nahi mila</string>
+    <string name="taxable_value">Taxable rakam</string>
+    <string name="cgst">CGST</string>
+    <string name="sgst">SGST</string>
+    <string name="tax_invoice">TAX INVOICE</string>
+    <string name="bill_of_supply">BILL OF SUPPLY</string>
+    <string name="composition_note">Composition taxable person, not eligible to collect tax on supplies</string>
+    <string name="gstin">GSTIN</string>
+    <string name="gstin_invalid">GSTIN 15 akshar ka hota hai, jaise 09ABCDE1234F1Z5</string>
+    <string name="gst_registration">GST registration</string>
+    <string name="gst_regular">Regular GST</string>
+    <string name="gst_composition">Composition Scheme</string>
+    <string name="gst_unregistered">Registered nahi</string>
+
+    <!-- A4 invoice: settings and buyer fields -->
+    <string name="shop_email">E-mail</string>
+    <string name="shop_state">Rajya (code-naam, jaise 27-Maharashtra)</string>
+    <string name="upi_id">UPI / Payee ID</string>
+    <string name="bank_name">Bank ka naam</string>
+    <string name="account_name">Account ka naam</string>
+    <string name="account_no">Account number</string>
+    <string name="ifsc">IFSC</string>
+    <string name="terms_label">Niyam aur shartein (har line mein ek)</string>
+    <string name="bill_format">Bill ka format</string>
+    <string name="format_a4">A4 invoice</string>
+    <string name="format_receipt">Chhoti rasid</string>
+    <string name="bank_details">Bank ki jaankari (invoice par chhapegi)</string>
+    <string name="customer_address">Pata (zaroori nahi)</string>
+    <string name="customer_gstin">GSTIN (zaroori nahi, dukaandaar grahak ke liye)</string>
+
+    <!-- v1.3 -->
+    <string name="edit_bill">Bill badlein</string>
+    <string name="edit_bill_note">Bill banne ke 24 ghante tak badla ja sakta hai</string>
+    <string name="reason_bill_edited">Bill badla</string>
+    <string name="fssai">FSSAI Lic. No.</string>
+    <string name="fssai_invalid">FSSAI licence number 14 ank ka hota hai</string>
+
+    <!-- Main tabs -->
+    <string name="khata">Khata</string>
+    <string name="more">Aur</string>
+    <string name="you_will_get">Lena hai</string>
+    <string name="you_will_give">Dena hai</string>
+
+    <!-- Bills -->
+    <string name="bills">Bills</string>
+    <string name="new_bill">Naya bill</string>
+    <string name="make_bill">Bill banayein</string>
+    <string name="customer_label">Grahak</string>
+    <string name="walk_in">Walk-in (cash sale)</string>
+    <string name="choose_customer">Grahak chunein</string>
+    <string name="add_item">Item jodein</string>
+    <string name="item_name">Item ka naam</string>
+    <string name="quantity">Qty</string>
+    <string name="rate">Rate ₹</string>
+    <string name="amount">Rakam</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="round_off">Round off</string>
+    <string name="total">Total</string>
+    <string name="payment_label">Payment</string>
+    <string name="full_paid">Pura paid</string>
+    <string name="on_credit">Udhaar</string>
+    <string name="part_paid">Kuch paid</string>
+    <string name="paid_amount">Abhi kitna paid</string>
+    <string name="cash">Cash</string>
+    <string name="online">Online / UPI</string>
+    <string name="paid">Paid</string>
+    <string name="balance_due">Baaki</string>
+    <string name="status_paid">PAID</string>
+    <string name="status_partly_paid">PARTLY PAID</string>
+    <string name="status_unpaid">UNPAID</string>
+    <string name="status_cash_sale">CASH SALE</string>
+    <string name="share_bill">PDF share karein</string>
+    <string name="download_bill">Download</string>
+    <string name="downloaded">Downloads mein save ho gaya</string>
+    <string name="delete_bill">Bill hatayein</string>
+    <string name="bill_deleted">Bill hata diya</string>
+    <string name="no_items">Kam se kam ek item jodein</string>
+    <string name="walk_in_must_pay">Walk-in bill pura paid hota hai. Udhaar ke liye grahak chunein.</string>
+    <string name="no_bills_yet">Abhi koi bill nahi</string>
+    <string name="thank_you">Dhanyavaad, phir aaiye</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Ho gaya</string>
+    <string name="remove">Hatayein</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="shop_details">Dukaan ki jaankari (bill par chhapegi)</string>
+    <string name="shop_name">Dukaan ka naam</string>
+    <string name="shop_address">Pata</string>
+    <string name="shop_phone">Phone</string>
+    <string name="language">Bhasha</string>
+    <string name="choose_language">Bhasha chunein</string>
+    <string name="ship_same_as_buyer">Ship to: buyer wala hi pata</string>
+    <string name="ship_name">Ship to naam</string>
+    <string name="ship_address">Ship to pata</string>
+    <string name="ship_phone">Ship to phone (optional)</string>
+    <string name="ship_to">Ship to</string>
+    <string name="ship_name_needed">Ship to naam likhein, ya \"buyer wala hi pata\" tick karein</string>
+    <string name="leave_bill_title">Bill chhod dein?</string>
+    <string name="leave_bill_text">Jode gaye items save nahi honge.</string>
+    <string name="leave">Haan, chhodein</string>
+    <string name="stay">Nahi</string>
+    <string name="delete_bill_title">Ye bill hatayein?</string>
+    <string name="delete_bill_text">Khata aur stock is bill se pehle jaisa ho jayega.</string>
+    <string name="edit_closed">Bill 24 ghante se purana hai, ab badla nahi ja sakta.</string>
+    <string name="total_items">Total (%1$d item)</string>
+    <string name="phone_invalid">Phone number 10 ank ka hona chahiye</string>
+    <string name="edit_item">Item badlein</string>
+    <string name="quick_add_customer">+ Naya grahak: %1$s</string>
+    <string name="delete_customer">Grahak hatayein</string>
+    <string name="delete_supplier">Supplier hatayein</string>
+    <string name="delete_customer_title">Grahak %1$s ko hatayein?</string>
+    <string name="delete_supplier_title">Supplier %1$s ko hatayein?</string>
+    <string name="delete_party_balance_warning">Is khate mein abhi ₹%1$s baaki hai. Hatane par ye total se nikal jayega.</string>
+    <string name="delete_party_text">Purane bill save rahenge, par ye khate mein nahi dikhenge.</string>
+    <string name="delete_item">Item hatayein</string>
+    <string name="delete_item_title">%1$s ko stock se hatayein?</string>
+    <string name="delete_item_text">Iska stock ka hisaab bhi hat jayega. Purane bill par asar nahi hoga.</string>
+    <string name="item_name_taken">Is naam ka item pehle se hai</string>
+    <string name="delete_entry_title">Ye entry hatayein?</string>
+    <string name="delete_expense_title">Ye kharcha hatayein?</string>
+    <string name="delete_cash_title">Ye entry hatayein?</string>
+    <string name="search_bills">Naam, phone ya bill no. khojein…</string>
+    <string name="no_match">Kuch nahi mila</string>
+    <string name="customer_ship_address">Shipping pata (zaroori nahi)</string>
+    <string name="customer_ship_address_hint">Agar saaman kahin aur jaata hai. Bill par apne aap aa jayega.</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat parent is needed for per-app language switching; Compose draws the actual UI. -->
+    <style name="Theme.KiranaLedger" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

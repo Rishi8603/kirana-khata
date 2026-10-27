@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Folders the app may share with other apps (WhatsApp, camera) through FileProvider. -->
+<paths>
+    <cache-path name="bills" path="bills/" />
+    <cache-path name="backups" path="backups/" />
+    <files-path name="photos" path="photos/" />
+</paths>

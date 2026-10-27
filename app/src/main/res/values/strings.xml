@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English (also the fallback if a word is missing in another language). -->
+<resources>
+    <string name="app_name">Kirana Khata</string>
+
+    <!-- Home -->
+    <string name="total_due">Total due (to collect)</string>
+    <plurals name="from_n_customers">
+        <item quantity="one">from %1$d customer</item>
+        <item quantity="other">from %1$d customers</item>
+    </plurals>
+    <string name="search_customers">Search customers…</string>
+    <string name="new_customer">New customer</string>
+    <string name="settled">Settled</string>
+    <string name="from_bahi">From bahi</string>
+    <string name="no_customers_yet">Add your first customer to start</string>
+
+    <!-- Customer page -->
+    <string name="due">due</string>
+    <string name="advance">advance</string>
+    <string name="gave">Credit ₹</string>
+    <string name="gave_hint">Goods on credit</string>
+    <string name="got">Payment ₹</string>
+    <string name="got_hint">Money received</string>
+    <string name="remind">Remind</string>
+    <string name="call">Call</string>
+    <string name="pdf">PDF</string>
+    <string name="no_entries_yet">No entries yet</string>
+
+    <!-- Amount entry -->
+    <string name="gave_to">Credit to %1$s</string>
+    <string name="got_from">Payment from %1$s</string>
+    <string name="add_note">Add note (optional)</string>
+    <string name="today">Today</string>
+    <string name="save">Save</string>
+    <string name="undo">Undo</string>
+    <string name="entry_saved">Entry saved</string>
+    <string name="entry_deleted">Entry deleted</string>
+
+    <!-- Add customer -->
+    <string name="name">Name</string>
+    <string name="phone_optional">Phone (optional)</string>
+    <string name="phone_hint">For WhatsApp reminders</string>
+    <string name="old_bahi_balance">Old balance in bahi</string>
+    <string name="take_bahi_photo">Take photo of bahi page</string>
+    <string name="photo_for_proof">For proof (optional)</string>
+    <string name="save_customer">Save customer</string>
+    <string name="name_required">Enter a name</string>
+
+    <!-- Reminder message sent on WhatsApp: customer name, amount -->
+    <string name="reminder_message">Namaste %1$s ji, your balance of ₹%2$s is due. Thank you.</string>
+    <string name="long_press_to_delete">Tap an entry to edit, hold to delete</string>
+    <string name="amount_required">Enter an amount</string>
+    <string name="whatsapp_missing">WhatsApp isn\'t installed</string>
+    <string name="opening_balance">Old balance (bahi)</string>
+    <string name="photo_coming_soon">Bahi photo is coming in the next update</string>
+
+    <!-- Dues and collections -->
+    <string name="due_date">Due date</string>
+    <string name="due_on">Due %1$s</string>
+    <string name="set_due_date">Set due date</string>
+    <string name="remove_due_date">Remove due date</string>
+    <string name="collections">Collections</string>
+    <string name="overdue">Overdue</string>
+    <string name="due_today">Due today</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="no_due_date">No due date</string>
+    <string name="running_balance">Bal ₹%1$s</string>
+    <string name="filter_all">All</string>
+    <string name="filter_due">Due</string>
+    <string name="filter_settled">Settled</string>
+    <string name="sort">Sort</string>
+    <string name="sort_recent">Recent first</string>
+    <string name="sort_highest_due">Highest due</string>
+    <string name="sort_name">Name A–Z</string>
+    <string name="sort_oldest">Oldest first</string>
+    <string name="edit">Edit</string>
+    <string name="edit_entry">Edit entry</string>
+    <string name="edit_customer">Edit customer</string>
+    <string name="ok">OK</string>
+
+    <!-- Suppliers -->
+    <string name="customers_tab">Customers</string>
+    <string name="search_suppliers">Search suppliers…</string>
+    <string name="shop_details_short">Shop details</string>
+    <string name="suppliers_tab">Suppliers</string>
+    <string name="new_supplier">New supplier</string>
+    <string name="edit_supplier">Edit supplier</string>
+    <string name="no_suppliers_yet">Add the wholesalers you buy from</string>
+    <string name="purchase">Purchase ₹</string>
+    <string name="purchase_hint">Goods on credit</string>
+    <string name="pay_supplier">Payment ₹</string>
+    <string name="pay_supplier_hint">Money paid</string>
+    <string name="purchase_from">Purchase from %1$s</string>
+    <string name="paid_to">Payment to %1$s</string>
+    <string name="to_pay">to pay</string>
+    <plurals name="to_n_suppliers">
+        <item quantity="one">to %1$d supplier</item>
+        <item quantity="other">to %1$d suppliers</item>
+    </plurals>
+
+    <!-- Expenses -->
+    <string name="expenses">Expenses</string>
+    <string name="add_expense">Add expense</string>
+    <string name="edit_expense">Edit expense</string>
+    <string name="expense_category">Category</string>
+    <string name="other_category">Other…</string>
+    <string name="category_required">Choose a category</string>
+    <string name="no_expenses">No expenses this month</string>
+    <string name="delete">Delete</string>
+    <string-array name="expense_categories">
+        <item>Rent</item>
+        <item>Electricity</item>
+        <item>Salary</item>
+        <item>Transport</item>
+        <item>Tea / snacks</item>
+        <item>Packaging</item>
+        <item>Repair</item>
+    </string-array>
+
+    <!-- Stock -->
+    <string name="stock">Stock</string>
+    <string name="add_item_stock">Add item</string>
+    <string name="search_items">Search items…</string>
+    <string name="no_items_yet">Items from your bills show up here. Add items to track stock.</string>
+    <plurals name="low_stock_count">
+        <item quantity="one">%1$d item is low on stock</item>
+        <item quantity="other">%1$d items are low on stock</item>
+    </plurals>
+    <string name="low">Low</string>
+    <string name="not_tracked">Not tracked</string>
+    <string name="track_stock">Track stock for this item</string>
+    <string name="sale_price">Sale price ₹</string>
+    <string name="purchase_price">Purchase price ₹</string>
+    <string name="current_stock">Current stock</string>
+    <string name="min_stock">Warn when stock is at or below</string>
+    <string name="stock_in">Stock in</string>
+    <string name="stock_out">Stock out</string>
+    <string name="how_many">How many?</string>
+    <string name="stock_history">History</string>
+    <string name="reason_sale">Sold (bill)</string>
+    <string name="reason_purchase">Stock in</string>
+    <string name="reason_adjust">Stock out / correction</string>
+    <string name="reason_bill_deleted">Bill deleted</string>
+    <string name="stock_value">Stock value</string>
+
+    <!-- Galla and reports -->
+    <string name="galla">Galla (cash register)</string>
+    <string name="reports">Reports</string>
+    <string name="cash_in">Cash in</string>
+    <string name="cash_out">Cash out</string>
+    <string name="net_cash">Net cash today</string>
+    <string name="net">Net</string>
+    <string name="from_bills">From bills</string>
+    <string name="khata_payments">Khata payments received</string>
+    <string name="supplier_payments">Paid to suppliers</string>
+    <string name="other_cash_in">Other cash in</string>
+    <string name="other_cash_out">Other cash out</string>
+    <string name="add_cash_in">+ Cash in</string>
+    <string name="add_cash_out">− Cash out</string>
+    <string name="manual_entries">Other entries</string>
+    <string name="cash_note_hint">e.g. taken home, change added</string>
+    <string name="sales">Sales (bills)</string>
+    <string name="bills_count">Bills</string>
+    <string name="credit_given">Credit given</string>
+    <string name="purchases">Purchases (suppliers)</string>
+    <string name="top_dues">Highest dues</string>
+    <string name="period_today">Today</string>
+    <string name="period_week">This week</string>
+    <string name="period_month">This month</string>
+    <string name="period_last_month">Last month</string>
+    <string name="business">Business</string>
+    <string name="cash_flow">Cash flow</string>
+
+    <!-- Part 6: backup, lock, photo, statement -->
+    <string name="backup">Backup and restore</string>
+    <string name="auto_backup_title">Automatic Google Drive backup</string>
+    <string name="auto_backup_body">Android copies this app\'s data to your Google account about once a day (on Wi‑Fi, while charging) and restores it automatically on a new phone signed in to the same account. Check that it\'s on: phone Settings → Google → Backup.</string>
+    <string name="backup_file_title">Backup file</string>
+    <string name="backup_file_body">Makes one file with all your data. Send it to yourself on WhatsApp or save it to Drive, as an extra copy.</string>
+    <string name="make_backup_file">Make and share backup file</string>
+    <string name="restore_from_file">Restore from backup file</string>
+    <string name="restore_warning">This replaces ALL data on this phone with the backup file. Continue?</string>
+    <string name="restore_done">Restored. The app will restart.</string>
+    <string name="restore_failed">That file isn\'t a Kirana Khata backup.</string>
+    <string name="app_lock">App lock</string>
+    <string name="app_lock_body">Ask for fingerprint or phone PIN when the app opens</string>
+    <string name="app_lock_unavailable">Set a screen lock or fingerprint on the phone first</string>
+    <string name="unlock">Unlock</string>
+    <string name="locked">Kirana Khata is locked</string>
+    <string name="bahi_photo">Bahi photo</string>
+    <string name="photo_saved">Photo added</string>
+    <string name="statement">Statement</string>
+    <string name="col_date">Date</string>
+    <string name="col_details">Details</string>
+    <string name="col_balance">Balance</string>
+
+    <!-- GST & HSN (v1.1) -->
+    <string name="gst_hsn">GST / HSN</string>
+    <string name="choose_hsn">Choose HSN code</string>
+    <string name="change">Change</string>
+    <string name="search_hsn">Search HSN code or product type…</string>
+    <string name="all">All</string>
+    <string name="exempt">Exempt</string>
+    <string name="hsn">HSN</string>
+    <string name="product_nature">Product type (as per GST)</string>
+    <string name="gst_rate">GST rate</string>
+    <string name="gst_added_on_top">Amount = Rate × Qty. GST is added on top.</string>
+    <string name="remove_gst">Remove GST</string>
+    <string name="no_gst_set">No GST set</string>
+    <string name="gst_source_note">Rates as on 22.09.2025 (CBIC). Please confirm with your CA.</string>
+    <string name="no_hsn_results">No matching HSN code</string>
+    <string name="taxable_value">Taxable value</string>
+    <string name="cgst">CGST</string>
+    <string name="sgst">SGST</string>
+    <string name="tax_invoice">TAX INVOICE</string>
+    <string name="bill_of_supply">BILL OF SUPPLY</string>
+    <string name="composition_note">Composition taxable person, not eligible to collect tax on supplies</string>
+    <string name="gstin">GSTIN</string>
+    <string name="gstin_invalid">GSTIN should be 15 characters, like 09ABCDE1234F1Z5</string>
+    <string name="gst_registration">GST registration</string>
+    <string name="gst_regular">Regular GST</string>
+    <string name="gst_composition">Composition Scheme</string>
+    <string name="gst_unregistered">Not Registered</string>
+
+    <!-- A4 invoice: settings and buyer fields -->
+    <string name="shop_email">E-mail</string>
+    <string name="shop_state">State (code-name, e.g. 27-Maharashtra)</string>
+    <string name="upi_id">UPI / Payee ID</string>
+    <string name="bank_name">Bank name</string>
+    <string name="account_name">Account name</string>
+    <string name="account_no">Account number</string>
+    <string name="ifsc">IFSC</string>
+    <string name="terms_label">Terms and conditions (one per line)</string>
+    <string name="bill_format">Bill format</string>
+    <string name="format_a4">A4 invoice</string>
+    <string name="format_receipt">Small receipt</string>
+    <string name="bank_details">Bank details (printed on invoice)</string>
+    <string name="customer_address">Address (optional)</string>
+    <string name="customer_gstin">GSTIN (optional, for business buyers)</string>
+
+    <!-- A4 invoice labels (English on the printed invoice, like most GST invoices) -->
+    <string name="inv_original">Original for Buyer</string>
+    <string name="inv_fssai">FSSAI Lic. No.</string>
+    <string name="inv_gst_invoice">GST INVOICE</string>
+    <string name="inv_bill_of_supply">BILL OF SUPPLY</string>
+    <string name="inv_invoice">INVOICE</string>
+    <string name="inv_buyer">Buyer Name</string>
+    <string name="inv_shipping">Shipping Address</string>
+    <string name="inv_no">Invoice No.</string>
+    <string name="inv_date">Date</string>
+    <string name="inv_transport">Transport</string>
+    <string name="inv_vehicle">Vehicle No.</string>
+    <string name="inv_state">State</string>
+    <string name="inv_phone">Phone</string>
+    <string name="inv_email">E-Mail</string>
+    <string name="inv_sr">Sr.</string>
+    <string name="inv_description">DESCRIPTION OF GOODS</string>
+    <string name="inv_hsn">HSN CODE</string>
+    <string name="inv_qty">QUANTITY</string>
+    <string name="inv_unit">UNIT</string>
+    <string name="inv_rate">RATE</string>
+    <string name="inv_gst">GST%</string>
+    <string name="inv_amount">AMOUNT</string>
+    <string name="inv_total_qty">TOTAL QUANTITY :</string>
+    <string name="inv_gross">GROSS AMOUNT</string>
+    <string name="inv_discount">DISCOUNT</string>
+    <string name="inv_sgst_value">SGST Value</string>
+    <string name="inv_cgst_value">CGST Value</string>
+    <string name="inv_round_off">ROUND OFF</string>
+    <string name="inv_grand_total">GRAND TOTAL</string>
+    <string name="inv_class">Class</string>
+    <string name="inv_gst_pct">GST %</string>
+    <string name="inv_taxable">Taxable Amt.</string>
+    <string name="inv_tax">Tax Amt.</string>
+    <string name="inv_exempted">EXEMPTED</string>
+    <string name="inv_paid">PAID</string>
+    <string name="inv_balance">BALANCE DUE</string>
+    <string name="inv_remark">Remark :</string>
+    <string name="inv_terms">Terms &amp; Conditions</string>
+    <string name="inv_default_terms">Goods once sold will not be taken back or exchanged.\nAll disputes subject to local jurisdiction only.</string>
+    <string name="inv_payee">PAYEE ID -:</string>
+    <string name="inv_ac_name">A/c NAME</string>
+    <string name="inv_bank">BANK</string>
+    <string name="inv_ac_no">A/c NO.</string>
+    <string name="inv_ifsc">IFSC</string>
+    <string name="inv_declaration">Certified that the particulars given above are true and correct and the amount indicated represents the price actually charged.</string>
+    <string name="inv_for">For %1$s</string>
+    <string name="inv_signatory">Authorised signatory</string>
+    <string name="inv_receiver">Receiver Signature</string>
+
+    <!-- v1.3 -->
+    <string name="edit_bill">Edit bill</string>
+    <string name="edit_bill_note">Bills can be edited for 24 hours after they are made</string>
+    <string name="reason_bill_edited">Bill edited</string>
+    <string name="fssai">FSSAI Lic. No.</string>
+    <string name="fssai_invalid">FSSAI licence number has 14 digits</string>
+
+    <!-- Main tabs -->
+    <string name="khata">Khata</string>
+    <string name="more">More</string>
+    <string name="you_will_get">You\'ll get</string>
+    <string name="you_will_give">You\'ll give</string>
+
+    <!-- Bills -->
+    <string name="bills">Bills</string>
+    <string name="new_bill">New bill</string>
+    <string name="make_bill">Make bill</string>
+    <string name="customer_label">Customer</string>
+    <string name="walk_in">Walk-in (cash sale)</string>
+    <string name="choose_customer">Choose customer</string>
+    <string name="add_item">Add item</string>
+    <string name="item_name">Item name</string>
+    <string name="quantity">Qty</string>
+    <string name="rate">Rate ₹</string>
+    <string name="amount">Amount</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="round_off">Round off</string>
+    <string name="total">Total</string>
+    <string name="payment_label">Payment</string>
+    <string name="full_paid">Fully paid</string>
+    <string name="on_credit">On credit</string>
+    <string name="part_paid">Part paid</string>
+    <string name="paid_amount">Amount paid now</string>
+    <string name="cash">Cash</string>
+    <string name="online">Online / UPI</string>
+    <string name="paid">Paid</string>
+    <string name="balance_due">Balance due</string>
+    <string name="status_paid">PAID</string>
+    <string name="status_partly_paid">PARTLY PAID</string>
+    <string name="status_unpaid">UNPAID</string>
+    <string name="status_cash_sale">CASH SALE</string>
+    <string name="share_bill">Share PDF</string>
+    <string name="download_bill">Download</string>
+    <string name="downloaded">Saved in Downloads</string>
+    <string name="delete_bill">Delete bill</string>
+    <string name="bill_deleted">Bill deleted</string>
+    <string name="no_items">Add at least one item</string>
+    <string name="walk_in_must_pay">Walk-in bills are fully paid. Choose a customer for credit.</string>
+    <string name="no_bills_yet">No bills yet</string>
+    <string name="thank_you">Thank you, visit again</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="remove">Remove</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="shop_details">Shop details (printed on bills)</string>
+    <string name="shop_name">Shop name</string>
+    <string name="shop_address">Address</string>
+    <string name="shop_phone">Phone</string>
+    <string name="language">Language</string>
+    <string name="choose_language">Choose language</string>
+    <string name="ship_same_as_buyer">Ship to: same as buyer</string>
+    <string name="ship_name">Ship to name</string>
+    <string name="ship_address">Ship to address</string>
+    <string name="ship_phone">Ship to phone (optional)</string>
+    <string name="ship_to">Ship to</string>
+    <string name="ship_name_needed">Enter the Ship to name, or tick \"same as buyer\"</string>
+    <string name="leave_bill_title">Leave this bill?</string>
+    <string name="leave_bill_text">The items you added will not be saved.</string>
+    <string name="leave">Yes, leave</string>
+    <string name="stay">No, stay</string>
+    <string name="delete_bill_title">Delete this bill?</string>
+    <string name="delete_bill_text">Khata and stock will go back to how they were before this bill.</string>
+    <string name="edit_closed">This bill is more than 24 hours old, so it can no longer be edited.</string>
+    <string name="total_items">Total (%1$d items)</string>
+    <string name="phone_invalid">Phone number must be 10 digits</string>
+    <string name="edit_item">Edit item</string>
+    <string name="quick_add_customer">+ New customer: %1$s</string>
+    <string name="delete_customer">Delete customer</string>
+    <string name="delete_supplier">Delete supplier</string>
+    <string name="delete_customer_title">Delete customer %1$s?</string>
+    <string name="delete_supplier_title">Delete supplier %1$s?</string>
+    <string name="delete_party_balance_warning">₹%1$s is still pending in this khata. Deleting removes it from your totals.</string>
+    <string name="delete_party_text">Their old bills stay saved, but they will no longer appear in your khata.</string>
+    <string name="delete_item">Delete item</string>
+    <string name="delete_item_title">Delete %1$s from stock?</string>
+    <string name="delete_item_text">Its stock history is removed too. Old bills are not affected.</string>
+    <string name="item_name_taken">An item with this name already exists</string>
+    <string name="delete_entry_title">Delete this entry?</string>
+    <string name="delete_expense_title">Delete this expense?</string>
+    <string name="delete_cash_title">Delete this entry?</string>
+    <string name="search_bills">Search name, phone or bill no…</string>
+    <string name="no_match">Nothing found</string>
+    <string name="customer_ship_address">Shipping address (optional)</string>
+    <string name="customer_ship_address_hint">Only if goods go somewhere else. Fills in on their bills automatically.</string>
+</resources>

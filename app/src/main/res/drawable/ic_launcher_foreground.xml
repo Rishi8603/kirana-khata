@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon: a white khata book with a ₹ on it. 108x108 adaptive-icon canvas; artwork stays in the central safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Book cover -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,28 h38 a4,4 0 0 1 4,4 v44 a4,4 0 0 1 -4,4 h-38 a4,4 0 0 1 -4,-4 v-44 a4,4 0 0 1 4,-4 z" />
+    <!-- Spine -->
+    <path
+        android:strokeColor="#B9CCEE"
+        android:strokeWidth="2.5"
+        android:pathData="M40,30 V78" />
+    <!-- Ruled lines, like a bahi page -->
+    <path
+        android:strokeColor="#DCE7FA"
+        android:strokeWidth="1.5"
+        android:pathData="M45,75 H71" />
+
+    <!-- Rupee sign -->
+    <path
+        android:strokeColor="#1E5BB8"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M48,38 H68 M48,46 H68 M48,38 H54 C61,38 64,42 64,46 C64,50 61,54 54,54 H49 L64,70" />
+</vector>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hindi (Devanagari). -->
+<resources>
+    <string name="app_name">किराना खाता</string>
+
+    <!-- Home -->
+    <string name="total_due">कुल बाकी (लेना है)</string>
+    <plurals name="from_n_customers">
+        <item quantity="one">%1$d ग्राहक से</item>
+        <item quantity="other">%1$d ग्राहकों से</item>
+    </plurals>
+    <string name="search_customers">ग्राहक खोजें…</string>
+    <string name="new_customer">नया ग्राहक</string>
+    <string name="settled">हिसाब साफ</string>
+    <string name="from_bahi">बही से</string>
+    <string name="no_customers_yet">पहला ग्राहक जोड़ें</string>
+
+    <!-- Customer page -->
+    <string name="due">बाकी है</string>
+    <string name="advance">एडवांस है</string>
+    <string name="gave">उधार ₹</string>
+    <string name="gave_hint">सामान उधार दिया</string>
+    <string name="got">जमा ₹</string>
+    <string name="got_hint">पैसे मिले</string>
+    <string name="remind">याद दिलाएं</string>
+    <string name="call">कॉल</string>
+    <string name="pdf">PDF</string>
+    <string name="no_entries_yet">अभी कोई एंट्री नहीं</string>
+
+    <!-- Amount entry -->
+    <string name="gave_to">%1$s को उधार</string>
+    <string name="got_from">%1$s से जमा</string>
+    <string name="add_note">नोट जोड़ें (ज़रूरी नहीं)</string>
+    <string name="today">आज</string>
+    <string name="save">सेव करें</string>
+    <string name="undo">वापस</string>
+    <string name="entry_saved">एंट्री सेव हो गई</string>
+    <string name="entry_deleted">एंट्री हटा दी</string>
+
+    <!-- Add customer -->
+    <string name="name">नाम</string>
+    <string name="phone_optional">फ़ोन (ज़रूरी नहीं)</string>
+    <string name="phone_hint">WhatsApp याद दिलाने के लिए</string>
+    <string name="old_bahi_balance">बही में पुराना बाकी</string>
+    <string name="take_bahi_photo">बही पेज की फोटो लें</string>
+    <string name="photo_for_proof">सबूत के लिए (ज़रूरी नहीं)</string>
+    <string name="save_customer">ग्राहक सेव करें</string>
+    <string name="name_required">नाम लिखें</string>
+
+    <string name="reminder_message">नमस्ते %1$s जी, आपका ₹%2$s बाकी है। धन्यवाद।</string>
+    <string name="long_press_to_delete">बदलने के लिए एंट्री दबाएं, हटाने के लिए दबाए रखें</string>
+    <string name="amount_required">रकम लिखें</string>
+    <string name="whatsapp_missing">WhatsApp फ़ोन में नहीं है</string>
+    <string name="opening_balance">पुराना बाकी (बही)</string>
+    <string name="photo_coming_soon">बही फोटो अगले अपडेट में आएगी</string>
+
+    <!-- Dues and collections -->
+    <string name="due_date">देय तिथि</string>
+    <string name="due_on">%1$s तक देना है</string>
+    <string name="set_due_date">तिथि लगाएं</string>
+    <string name="remove_due_date">तिथि हटाएं</string>
+    <string name="collections">वसूली</string>
+    <string name="overdue">देर हो गई</string>
+    <string name="due_today">आज लेना है</string>
+    <string name="upcoming">आने वाले</string>
+    <string name="no_due_date">कोई तिथि नहीं</string>
+    <string name="running_balance">बाकी ₹%1$s</string>
+    <string name="filter_all">सब</string>
+    <string name="filter_due">बाकी वाले</string>
+    <string name="filter_settled">हिसाब साफ</string>
+    <string name="sort">क्रम</string>
+    <string name="sort_recent">नए पहले</string>
+    <string name="sort_highest_due">सबसे ज़्यादा बाकी</string>
+    <string name="sort_name">नाम</string>
+    <string name="sort_oldest">पुराने पहले</string>
+    <string name="edit">बदलें</string>
+    <string name="edit_entry">एंट्री बदलें</string>
+    <string name="edit_customer">ग्राहक बदलें</string>
+    <string name="ok">ठीक है</string>
+
+    <!-- Suppliers -->
+    <string name="customers_tab">ग्राहक</string>
+    <string name="search_suppliers">सप्लायर खोजें…</string>
+    <string name="shop_details_short">दुकान की जानकारी</string>
+    <string name="suppliers_tab">सप्लायर</string>
+    <string name="new_supplier">नया सप्लायर</string>
+    <string name="edit_supplier">सप्लायर बदलें</string>
+    <string name="no_suppliers_yet">जिनसे माल लेते हैं, उन्हें जोड़ें</string>
+    <string name="purchase">माल लिया ₹</string>
+    <string name="purchase_hint">उधार माल</string>
+    <string name="pay_supplier">भुगतान ₹</string>
+    <string name="pay_supplier_hint">पैसे दिए</string>
+    <string name="purchase_from">%1$s से माल</string>
+    <string name="paid_to">%1$s को भुगतान</string>
+    <string name="to_pay">देना है</string>
+    <plurals name="to_n_suppliers">
+        <item quantity="one">%1$d सप्लायर को</item>
+        <item quantity="other">%1$d सप्लायरों को</item>
+    </plurals>
+
+    <!-- Expenses -->
+    <string name="expenses">खर्चे</string>
+    <string name="add_expense">खर्चा जोड़ें</string>
+    <string name="edit_expense">खर्चा बदलें</string>
+    <string name="expense_category">किस चीज़ का</string>
+    <string name="other_category">अन्य…</string>
+    <string name="category_required">श्रेणी चुनें</string>
+    <string name="no_expenses">इस महीने कोई खर्चा नहीं</string>
+    <string name="delete">हटाएं</string>
+    <string-array name="expense_categories">
+        <item>किराया</item>
+        <item>बिजली</item>
+        <item>तनख्वाह</item>
+        <item>भाड़ा</item>
+        <item>चाय-नाश्ता</item>
+        <item>पैकिंग</item>
+        <item>मरम्मत</item>
+    </string-array>
+
+    <!-- Stock -->
+    <string name="stock">स्टॉक</string>
+    <string name="add_item_stock">आइटम जोड़ें</string>
+    <string name="search_items">आइटम खोजें…</string>
+    <string name="no_items_yet">बिल के आइटम यहाँ दिखेंगे। स्टॉक गिनने के लिए आइटम जोड़ें।</string>
+    <plurals name="low_stock_count">
+        <item quantity="one">%1$d आइटम का स्टॉक कम है</item>
+        <item quantity="other">%1$d आइटम का स्टॉक कम है</item>
+    </plurals>
+    <string name="low">कम</string>
+    <string name="not_tracked">गिना नहीं जाता</string>
+    <string name="track_stock">इस आइटम का स्टॉक गिनें</string>
+    <string name="sale_price">बेचने का दाम ₹</string>
+    <string name="purchase_price">खरीद का दाम ₹</string>
+    <string name="current_stock">अभी का स्टॉक</string>
+    <string name="min_stock">इतना या कम हो तो बताएं</string>
+    <string name="stock_in">स्टॉक आया</string>
+    <string name="stock_out">स्टॉक घटाएं</string>
+    <string name="how_many">कितना?</string>
+    <string name="stock_history">इतिहास</string>
+    <string name="reason_sale">बिका (बिल)</string>
+    <string name="reason_purchase">स्टॉक आया</string>
+    <string name="reason_adjust">घटाया / सुधार</string>
+    <string name="reason_bill_deleted">बिल हटाया</string>
+    <string name="stock_value">स्टॉक की कीमत</string>
+
+    <!-- Galla and reports -->
+    <string name="galla">गल्ला (रोकड़)</string>
+    <string name="reports">रिपोर्ट</string>
+    <string name="cash_in">पैसा आया</string>
+    <string name="cash_out">पैसा गया</string>
+    <string name="net_cash">आज की बचत</string>
+    <string name="net">बचत</string>
+    <string name="from_bills">बिल से</string>
+    <string name="khata_payments">खाते के पेमेंट मिले</string>
+    <string name="supplier_payments">सप्लायर को दिए</string>
+    <string name="other_cash_in">और पैसा आया</string>
+    <string name="other_cash_out">और पैसा गया</string>
+    <string name="add_cash_in">+ पैसा आया</string>
+    <string name="add_cash_out">− पैसा गया</string>
+    <string name="manual_entries">और एंट्री</string>
+    <string name="cash_note_hint">जैसे घर ले गए, छुट्टा डाला</string>
+    <string name="sales">बिक्री (बिल)</string>
+    <string name="bills_count">बिल</string>
+    <string name="credit_given">उधार दिया</string>
+    <string name="purchases">खरीद (सप्लायर)</string>
+    <string name="top_dues">सबसे ज़्यादा बाकी</string>
+    <string name="period_today">आज</string>
+    <string name="period_week">इस हफ्ते</string>
+    <string name="period_month">इस महीने</string>
+    <string name="period_last_month">पिछले महीने</string>
+    <string name="business">धंधा</string>
+    <string name="cash_flow">पैसे का हिसाब</string>
+
+    <!-- Part 6: backup, lock, photo, statement -->
+    <string name="backup">बैकअप और रिस्टोर</string>
+    <string name="auto_backup_title">Google Drive पर अपने आप बैकअप</string>
+    <string name="auto_backup_body">Android इस ऐप का डेटा दिन में लगभग एक बार आपके Google खाते में कॉपी करता है (Wi‑Fi और चार्जिंग पर), और नए फ़ोन पर उसी खाते से अपने आप वापस लाता है। जाँचें कि चालू है: फ़ोन Settings → Google → Backup।</string>
+    <string name="backup_file_title">बैकअप फ़ाइल</string>
+    <string name="backup_file_body">सारे डेटा की एक फ़ाइल बनती है। इसे WhatsApp पर खुद को भेजें या Drive में रखें — एक और कॉपी के लिए।</string>
+    <string name="make_backup_file">बैकअप फ़ाइल बनाएं और भेजें</string>
+    <string name="restore_from_file">बैकअप फ़ाइल से वापस लाएं</string>
+    <string name="restore_warning">इस फ़ोन का सारा डेटा बैकअप फ़ाइल से बदल जाएगा। आगे बढ़ें?</string>
+    <string name="restore_done">वापस आ गया। ऐप दोबारा खुलेगा।</string>
+    <string name="restore_failed">यह किराना खाता की बैकअप फ़ाइल नहीं है।</string>
+    <string name="app_lock">ऐप लॉक</string>
+    <string name="app_lock_body">ऐप खोलते समय फ़िंगरप्रिंट या फ़ोन PIN माँगें</string>
+    <string name="app_lock_unavailable">पहले फ़ोन पर स्क्रीन लॉक या फ़िंगरप्रिंट लगाएं</string>
+    <string name="unlock">खोलें</string>
+    <string name="locked">किराना खाता बंद है</string>
+    <string name="bahi_photo">बही फोटो</string>
+    <string name="photo_saved">फोटो जुड़ गई</string>
+    <string name="statement">स्टेटमेंट</string>
+    <string name="col_date">तारीख</string>
+    <string name="col_details">विवरण</string>
+    <string name="col_balance">बाकी</string>
+
+    <!-- GST & HSN (v1.1) -->
+    <string name="gst_hsn">GST / HSN</string>
+    <string name="choose_hsn">HSN कोड चुनें</string>
+    <string name="change">बदलें</string>
+    <string name="search_hsn">HSN कोड या सामान का प्रकार खोजें…</string>
+    <string name="all">सब</string>
+    <string name="exempt">छूट (0%)</string>
+    <string name="hsn">HSN</string>
+    <string name="product_nature">सामान का प्रकार (GST के अनुसार)</string>
+    <string name="gst_rate">GST दर</string>
+    <string name="gst_added_on_top">राशि = दर × मात्रा। GST ऊपर से जुड़ेगा।</string>
+    <string name="remove_gst">GST हटाएं</string>
+    <string name="no_gst_set">GST नहीं लगाया</string>
+    <string name="gst_source_note">दरें 22.09.2025 के अनुसार (CBIC)। CA से पक्का करें।</string>
+    <string name="no_hsn_results">कोई HSN कोड नहीं मिला</string>
+    <string name="taxable_value">कर योग्य राशि</string>
+    <string name="cgst">CGST</string>
+    <string name="sgst">SGST</string>
+    <string name="tax_invoice">कर बीजक (TAX INVOICE)</string>
+    <string name="bill_of_supply">आपूर्ति का बिल (BILL OF SUPPLY)</string>
+    <string name="composition_note">कंपोज़िशन करदाता, आपूर्ति पर कर वसूलने के पात्र नहीं</string>
+    <string name="gstin">GSTIN</string>
+    <string name="gstin_invalid">GSTIN 15 अक्षर का होता है, जैसे 09ABCDE1234F1Z5</string>
+    <string name="gst_registration">GST पंजीकरण</string>
+    <string name="gst_regular">नियमित GST</string>
+    <string name="gst_composition">कंपोज़िशन स्कीम</string>
+    <string name="gst_unregistered">पंजीकृत नहीं</string>
+
+    <!-- A4 invoice: settings and buyer fields -->
+    <string name="shop_email">ई-मेल</string>
+    <string name="shop_state">राज्य (कोड-नाम, जैसे 27-Maharashtra)</string>
+    <string name="upi_id">UPI / Payee ID</string>
+    <string name="bank_name">बैंक का नाम</string>
+    <string name="account_name">खाते का नाम</string>
+    <string name="account_no">खाता संख्या</string>
+    <string name="ifsc">IFSC</string>
+    <string name="terms_label">नियम और शर्तें (हर लाइन में एक)</string>
+    <string name="bill_format">बिल का फॉर्मेट</string>
+    <string name="format_a4">A4 इनवॉइस</string>
+    <string name="format_receipt">छोटी रसीद</string>
+    <string name="bank_details">बैंक की जानकारी (इनवॉइस पर छपेगी)</string>
+    <string name="customer_address">पता (ज़रूरी नहीं)</string>
+    <string name="customer_gstin">GSTIN (ज़रूरी नहीं, व्यापारी ग्राहक के लिए)</string>
+
+    <!-- v1.3 -->
+    <string name="edit_bill">बिल बदलें</string>
+    <string name="edit_bill_note">बिल बनने के 24 घंटे तक बदला जा सकता है</string>
+    <string name="reason_bill_edited">बिल बदला</string>
+    <string name="fssai">FSSAI लाइसेंस नं.</string>
+    <string name="fssai_invalid">FSSAI लाइसेंस नंबर 14 अंकों का होता है</string>
+
+    <!-- Main tabs -->
+    <string name="khata">खाता</string>
+    <string name="more">और</string>
+    <string name="you_will_get">लेना है</string>
+    <string name="you_will_give">देना है</string>
+
+    <!-- Bills -->
+    <string name="bills">बिल</string>
+    <string name="new_bill">नया बिल</string>
+    <string name="make_bill">बिल बनाएं</string>
+    <string name="customer_label">ग्राहक</string>
+    <string name="walk_in">वॉक-इन (नकद बिक्री)</string>
+    <string name="choose_customer">ग्राहक चुनें</string>
+    <string name="add_item">आइटम जोड़ें</string>
+    <string name="item_name">आइटम का नाम</string>
+    <string name="quantity">मात्रा</string>
+    <string name="rate">दाम ₹</string>
+    <string name="amount">रकम</string>
+    <string name="subtotal">उप-योग</string>
+    <string name="round_off">राउंड ऑफ</string>
+    <string name="total">कुल</string>
+    <string name="payment_label">पेमेंट</string>
+    <string name="full_paid">पूरा पेमेंट</string>
+    <string name="on_credit">उधार</string>
+    <string name="part_paid">कुछ पेमेंट</string>
+    <string name="paid_amount">अभी कितना पेमेंट</string>
+    <string name="cash">नकद</string>
+    <string name="online">ऑनलाइन / UPI</string>
+    <string name="paid">पेमेंट</string>
+    <string name="balance_due">बाकी</string>
+    <string name="status_paid">पूरा भुगतान</string>
+    <string name="status_partly_paid">आंशिक भुगतान</string>
+    <string name="status_unpaid">बाकी</string>
+    <string name="status_cash_sale">नकद बिक्री</string>
+    <string name="share_bill">PDF शेयर करें</string>
+    <string name="download_bill">डाउनलोड</string>
+    <string name="downloaded">डाउनलोड्स में सेव हो गया</string>
+    <string name="delete_bill">बिल हटाएं</string>
+    <string name="bill_deleted">बिल हटा दिया</string>
+    <string name="no_items">कम से कम एक आइटम जोड़ें</string>
+    <string name="walk_in_must_pay">वॉक-इन बिल पूरा पेमेंट होता है। उधार के लिए ग्राहक चुनें।</string>
+    <string name="no_bills_yet">अभी कोई बिल नहीं</string>
+    <string name="thank_you">धन्यवाद, फिर आइए</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="done">हो गया</string>
+    <string name="remove">हटाएं</string>
+
+    <!-- Settings -->
+    <string name="settings">सेटिंग्स</string>
+    <string name="shop_details">दुकान की जानकारी (बिल पर छपेगी)</string>
+    <string name="shop_name">दुकान का नाम</string>
+    <string name="shop_address">पता</string>
+    <string name="shop_phone">फ़ोन</string>
+    <string name="language">भाषा</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="ship_same_as_buyer">भेजें: खरीदार वाला पता ही</string>
+    <string name="ship_name">भेजने का नाम</string>
+    <string name="ship_address">भेजने का पता</string>
+    <string name="ship_phone">भेजने का फ़ोन (वैकल्पिक)</string>
+    <string name="ship_to">भेजें</string>
+    <string name="ship_name_needed">भेजने का नाम लिखें, या \"खरीदार वाला पता ही\" टिक करें</string>
+    <string name="leave_bill_title">बिल छोड़ दें?</string>
+    <string name="leave_bill_text">जोड़े गए आइटम सेव नहीं होंगे।</string>
+    <string name="leave">हाँ, छोड़ें</string>
+    <string name="stay">नहीं</string>
+    <string name="delete_bill_title">यह बिल हटाएँ?</string>
+    <string name="delete_bill_text">खाता और स्टॉक इस बिल से पहले जैसा हो जाएगा।</string>
+    <string name="edit_closed">बिल 24 घंटे से पुराना है, अब बदला नहीं जा सकता।</string>
+    <string name="total_items">कुल (%1$d आइटम)</string>
+    <string name="phone_invalid">फ़ोन नंबर 10 अंकों का होना चाहिए</string>
+    <string name="edit_item">आइटम बदलें</string>
+    <string name="quick_add_customer">+ नया ग्राहक: %1$s</string>
+    <string name="delete_customer">ग्राहक हटाएँ</string>
+    <string name="delete_supplier">सप्लायर हटाएँ</string>
+    <string name="delete_customer_title">ग्राहक %1$s को हटाएँ?</string>
+    <string name="delete_supplier_title">सप्लायर %1$s को हटाएँ?</string>
+    <string name="delete_party_balance_warning">इस खाते में अभी ₹%1$s बाकी है। हटाने पर यह कुल से निकल जाएगा।</string>
+    <string name="delete_party_text">पुराने बिल सेव रहेंगे, पर यह खाते में नहीं दिखेंगे।</string>
+    <string name="delete_item">आइटम हटाएँ</string>
+    <string name="delete_item_title">%1$s को स्टॉक से हटाएँ?</string>
+    <string name="delete_item_text">इसका स्टॉक का हिसाब भी हट जाएगा। पुराने बिलों पर असर नहीं होगा।</string>
+    <string name="item_name_taken">इस नाम का आइटम पहले से है</string>
+    <string name="delete_entry_title">यह एंट्री हटाएँ?</string>
+    <string name="delete_expense_title">यह खर्चा हटाएँ?</string>
+    <string name="delete_cash_title">यह एंट्री हटाएँ?</string>
+    <string name="search_bills">नाम, फ़ोन या बिल नं. खोजें…</string>
+    <string name="no_match">कुछ नहीं मिला</string>
+    <string name="customer_ship_address">शिपिंग पता (ज़रूरी नहीं)</string>
+    <string name="customer_ship_address_hint">अगर सामान कहीं और जाता है। बिल पर अपने आप आ जाएगा।</string>
+</resources>
